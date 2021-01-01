@@ -1,0 +1,65 @@
+.ant-pagination-item-active {
+  background-color: #de1218 !important;
+  border: 1px solid #a2161b !important;
+}
+
+
+.ant-pagination-item-active a{
+  color: white !important;
+}
+.ant-pagination-item.ant-pagination-item-active a:hover {
+  color: white !important;
+}
+.ant-pagination-item.ant-pagination-item-active:hover a{
+  color: white !important;
+}
+.ant-pagination-item a{
+  color: #000;
+}
+.ant-pagination-item:hover{
+  border-color: #a2161b !important;
+}
+
+.ant-pagination-item:hover a{
+  color: #000 !important;
+}
+
+.ant-pagination-prev,.ant-pagination-next {
+  width: 80px !important;
+}
+.ant-pagination-prev>button,.ant-pagination-next>button{
+  background-image: url("@/assets/img/sprite_button.png");
+  background-position: top -305px left -6px;
+  position: relative;
+}
+.ant-pagination-prev:hover>button,.ant-pagination-next:hover>button {
+  border: none !important;
+}
+.ant-pagination-prev>button>span{
+  position: absolute !important;
+  left: 6px !important;
+  top: 9px !important;
+}
+.ant-pagination-next>button>span{
+  position: absolute;
+  right: 6px;
+  top: 9px;
+}
+.ant-pagination-prev>button::before{
+  content:"上一页";
+  display: inline-block;
+  color: #333;
+  font-size: 12px;
+  position: absolute;
+  left: 23px;
+  top: 10px;
+}
+.ant-pagination-next>button::before{
+  content: "下一页";
+  display: inline-block;
+  color: #333;
+  font-size: 12px;
+  position: absolute;
+  right: 23px;
+  top: 10px;
+}

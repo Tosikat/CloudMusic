@@ -1,0 +1,2 @@
+export const CHANGE_NEW_ALBUM = 'CHANGE_NEW_ALBUM';
+export const CHANGE_TOP_ALBUM = 'CHANGE_TOP_ALBUM';

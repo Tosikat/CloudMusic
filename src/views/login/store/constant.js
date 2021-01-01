@@ -1,0 +1,1 @@
+export const CHANGE_LOGIN_INFO = 'CHANGE_LOGIN_INFO';
