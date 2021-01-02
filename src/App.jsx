@@ -11,6 +11,7 @@ import routes from "./router";
 const App = memo(function () {
   return (
     <div>
+      
       <Provider store={ store }>
         <HashRouter>
           <Header/>
